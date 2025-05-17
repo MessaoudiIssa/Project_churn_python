@@ -13,7 +13,7 @@ def load_data():
         DataFrame ou None en cas d'erreur
     """
     try:
-        path = "C:/Users/issam/Desktop/PFE_master/churn_dataset_tunisie_telecommmo.csv"  # Assuming the file is in the project root
+        path = "C:/Users/issam/Desktop/PFE_master/churn_dataset_tunisie_telecom_project.csv"  # Assuming the file is in the project root
         df = pd.read_csv(path)
 
         # Nettoyage des noms de colonnes
